@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta lang="en">
+	<link rel="stylesheet" href="style/style.css">
+	<title>HTML Test</title>
+</head>
+<body>
+	<section>
+		<form>
+			<h3>HTML Test</h3>
+			<fieldset id="Name">
+				<div>
+					<label for="name">Name</label>
+					<input class="input" type="text" name="name" id="name" placeholder="Enter your name" maxlength="30" required>
+				</div>
+				<div>
+					<label for="surname">Surname</label>
+					<input type="text" name="surname" id="surname" class="input" placeholder="Enter your surname" required>
+				</div>
+				<div>
+					<label>Shot #</label>
+					<select name="Shot #" multiple required>
+						<option value=""></option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="best">the best one</option>
+					</select>
+				</div>
+			</fieldset>
+			<fieldset id="Tests">
+				<div>
+					<p>1. Which HTML element is used to specify a header for a document or section?</p>
+					<div>
+						<label>&lthead&gt</label>
+						<input type="radio" name="header" value="head" label="head">
+					</div>
+					<div>
+						<label>&ltsection&gt</label>
+						<input type="radio" name="header" value="section" label="section">
+					</div>
+					<div>
+						<label>&lttop&gt</label>
+						<input type="radio" name="header" value="top" label="top">
+					</div>
+					<div>
+						<label>&ltheader&gt</label> <!-- true -->
+						<input type="radio" name="header" value="header" label="header">
+					</div>
+				</div>
+				<div>
+					<p>2. Which HTML element is used to display a scalar measurement within a range?</p>
+					<div>
+						<label>&ltmeasure&gt</label> <!-- true -->
+						<input type="radio" name="scalar" value="measure" label="measure">
+					</div>
+					<div>
+						<label>&ltmeter&gt</label>
+						<input type="radio" name="scalar" value="meter" label="meter">
+					</div>
+					<div>
+						<label>&ltrange&gt</label>
+						<input type="radio" name="scalar" value="range" label="range">
+					</div>
+					<div>
+						<label>&ltgauge&gt</label> 
+						<input type="radio" name="scalar" value="gauge" label="gauge" readonly="">
+					</div>
+				</div>
+				<div>
+					<p>3. Which input type defines a slider control?</p>
+					<div>
+						<label>controls</label> 
+						<input type="radio" name="slider" value="controls" label="controls">
+					</div>
+					<div>
+						<label>search</label> 
+						<input type="radio" name="slider" value="search" label="search">
+					</div>
+					<div>
+						<label>range</label> <!--true-->
+						<input type="radio" name="slider" value="range" label="range">
+					</div>
+					<div>
+						<label>slider</label> 
+						<input type="radio" name="slider" value="slider" label="slider">
+					</div>
+				</div>
+				<div>
+					<p>4. The HTML &ltcanvas&gt element is used to:</p>
+					<div>
+						<label>display database records</label> 
+						<input type="checkbox" value="display database records" label="display database records">
+					</div>
+					<div>
+						<label>manipulate data in MySQL</label> 
+						<input type="checkbox" value="manipulate data in MySQL" label="manipulate data in MySQL">
+					</div>
+					<div>
+						<label>create draggable elements</label> 
+						<input type="checkbox" value="create draggable elements" label="create draggable elements">
+					</div>
+					<div>
+						<label>draw graphics</label> <!--true-->
+						<input type="checkbox" value="draw graphics" label="draw graphics">
+					</div>
+				</div>
+				<div>
+					<p>5. Graphics defined by SVG is in which format?</p>
+					<div>
+						<label>CSS</label> 
+						<input type="checkbox" value="CSS" label="CSS">
+					</div>
+					<div>
+						<label>XML</label> <!--true -->
+						<input type="checkbox" value="XML" label="XML">
+					</div>
+					<div>
+						<label>HTML</label> 
+						<input type="checkbox" value="HTML" label="HTML">
+					</div>
+				</div>
+				<div>
+					<p>6. In HTML, you can embed SVG elements directly into an HTML page.</p>
+					<div>
+						<label>true</label> <!--true-->
+						<input type="radio" name="SVG to HTML" value="true" label="true">
+					</div>
+					<div>
+						<label>false</label> 
+						<input type="radio" name="SVG to HTML" value="false" label="false">
+					</div>
+				</div>
+				<div>
+					<p>7. An &ltiframe&gt is used to display a web page within a web page.</p>
+					<div>
+						<label>There is no such thing as an &ltiframe&gt</label> 
+						<input type="radio" name="iframe" value="There is no such thing as an &ltiframe&gt" label="There is no such thing as an &ltiframe&gt">
+					</div>
+					<div>
+						<label>true</label> <!--true-->
+						<input type="radio" name="iframe" value="true" label="true">
+					</div>
+					<div>
+						<label>false</label> 
+						<input type="radio" name="iframe" value="false" label="false">
+					</div>
+				</div>
+				<div>
+					<p>8. What is the correct HTML for making a drop-down list?</p>
+					<div>
+						<label>&ltinput type="dropdown"&gt</label> 
+						<input type="radio" name="drop-down" value="input type=&quotdropdown&quot" label="input type=&quotdropdown&quot">
+					</div>
+					<div>
+						<label>&ltlist&gt</label> 
+						<input type="radio" name="drop-down" value="list" label="list">
+					</div>
+					<div>
+						<label>&ltinput type=&quotlist&quot&gt</label> 
+						<input type="radio" name="drop-down" value="input type=&quotlist&quot" label="input type=&quotlist&quot">
+					</div>
+					<div>
+						<label>&ltselect&gt</label> <!--true-->
+						<input type="radio" name="drop-down" value="select" label="select"> 
+					</div>
+				</div>
+				<div>
+					<p>9. What is the correct HTML for making a text area?</p>
+					<div>
+						<label>&ltinput type=&quottextarea&quot&gt</label> 
+						<input type="radio" name="textarea" value="input type=&quottextarea&quot" label="input type=&quottextarea&quot">
+					</div>
+					<div>
+						<label>&ltinput type=&quottextbox&quot&gt</label> 
+						<input type="radio" name="textarea" value="input type=&quottextbox&quot" label="input type=&quottextbox&quot">
+					</div>
+					<div>
+						<label>&lttextarea&gt</label> <!--true-->
+						<input type="radio" name="textarea" value="textarea" label="textarea">
+					</div>
+				</div>
+				<div>
+					<p>10. What is the correct HTML for making a text input field?</p>
+					<div>
+						<label>&ltinput type=&quottextfield&quot&gt</label> 
+						<input type="radio" name="text input field" value="input type=&quottextfield&quot" label="input type=&quottextfield&quot">
+					</div>
+					<div>
+						<label>&ltinput type=&quottext&quot&gt</label><!--true--> 
+						<input type="radio" name="text input field" value="input type=&quottext&quot" label="input type=&quottext&quot">
+					</div>
+					<div>
+						<label>&lt;textfield&gt;</label> 
+						<input type="radio" name="text input field" value="textfield" label="textfield">
+					</div>
+					<div>
+						<label>&lt;textinput type=&quottext&quot&gt</label> 
+						<input type="radio" name="text input field" value="textinput type=&quottext&quot" label="textinput type=&quottext&quot">
+					</div>
+				</div>
+			</fieldset>
+			<fieldset id="Review">
+				<textarea name="review" placeholder="Leave a review or don`t" disabled></textarea>
+				<button type="submit" name="submit">Submit</button>
+				<button type="reset" name="reset">Reset</button>
+			</fieldset>
+		</form>
+	</section>
+</body>
+</html>
+<!-- <form>
+  <fieldset disabled>
+    <legend>Personalia:</legend>
+    Name: <input type="text"><br>
+    Email: <input type="text"><br>
+    Date of birth: <input type="text">
+  </fieldset> -->

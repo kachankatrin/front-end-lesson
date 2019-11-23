@@ -1,0 +1,50 @@
+body {
+	background-color: #cccc99;
+}
+
+h3 {
+	color: #000033;
+	font-family: arial;
+	font-size: x-large;
+	text-align: center;
+}
+
+/*#test_f {
+	border: solid orange;
+}
+*/
+#Name {
+	font-family: "Gill Sans", sans-serif;
+	background-color: #ffcc80;
+	border-top-right-radius: 12px;
+	border-top-left-radius: 12px;
+	border-top: 4px solid #ff9900;
+	border-bottom: 4px dashed #ff9900;
+	border-right: 4px solid #ff9900;
+	border-left: 4px solid #ff9900;
+}
+
+#Tests {
+	font-family: Georgia, serif;
+	background-color: #ffd699;
+	background-image: url("HTML5.png");
+	background-repeat: no-repeat;
+	background-position: 370px 80px,
+						right;
+	border-top: 0px;
+	border-bottom: 4px dashed #ff9900;
+	border-right: 4px solid #ff9900;
+	border-left: 4px solid #ff9900;
+}
+
+#Review {
+	font-family: cursive;
+	background-color: #ffe0b3;
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px; 
+	border-top: 0px;
+	border-bottom: 4px solid #ff9900;
+	border-right: 4px solid #ff9900;
+	border-left: 4px solid #ff9900;
+}
+
